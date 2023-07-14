@@ -4,15 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Blog - Contato</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contato-style.css" />
     <script src="scripts.js"></script>
   </head>
   <body>
-    <h2 class="form-title">Contato</h2>
     <form id="contact-form">
-      <input name="nome" />
-      <input name="email" />
-      <textarea name="mensagem"></textarea>
+      <h2>Contato</h2>
+      <div class="input-group">
+        <label for="nome">Nome:</label>
+        <input
+          name="nome"
+          id="nome"
+          type="text"
+          placeholder="insira seu nome aqui"
+          required
+        />
+      </div>
+      <div class="input-group">
+        <label for="email">E-mail:</label>
+        <input
+          name="email"
+          id="email"
+          type="email"
+          placeholder="contato@email.com"
+          required
+        />
+      </div>
+      <div class="input-group">
+        <label for="mensagem">Mensagem:</label>
+        <textarea
+          name="mensagem"
+          id="mensagem"
+          type="text"
+          placeholder="insira sua mensagem aqui"
+          required
+        ></textarea>
+      </div>
       <button>Enviar</button>
     </form>
   </body>

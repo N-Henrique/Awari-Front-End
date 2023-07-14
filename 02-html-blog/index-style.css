@@ -1,0 +1,7 @@
+body {
+  background-color: rgb(205, 245, 255);
+  display: list-item;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}

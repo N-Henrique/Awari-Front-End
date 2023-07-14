@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  height: fit-content;
+}
+
+body {
+  background-color: rgb(205, 245, 255);
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.input-group {
+  background-color: rgb(213, 246, 252);
+  flex-direction: column;
+  margin-bottom: 8px;
+}
