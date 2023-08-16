@@ -1,4 +1,4 @@
-import Item from "../Item"; // Certifique-se de importar corretamente
+import Item from '../Item'; // Certifique-se de importar corretamente
 
 function List({ items = [], onItemClick }) {
   const map = items.map((item) => {

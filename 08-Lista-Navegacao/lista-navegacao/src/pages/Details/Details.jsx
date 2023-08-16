@@ -1,6 +1,6 @@
-import { useEffect, useState } from "react";
-import { Link, useParams } from "react-router-dom";
-import { usersData } from "../../components/Data/data.js";
+import { useEffect, useState } from 'react';
+import { Link, useParams } from 'react-router-dom';
+import { usersData } from '../../components/Data/data.js';
 
 const Details = () => {
   const parameters = useParams();

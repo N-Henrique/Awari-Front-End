@@ -1,6 +1,6 @@
-import { useNavigate } from "react-router-dom";
-import { List } from "../../components";
-import { usersData } from "../../components/Data/data";
+import { useNavigate } from 'react-router-dom';
+import { List } from '../../components';
+import { usersData } from '../../components/Data/data';
 
 const Home = () => {
   const navigate = useNavigate();
